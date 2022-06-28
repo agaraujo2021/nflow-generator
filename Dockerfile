@@ -8,4 +8,4 @@ WORKDIR /etc/nflow
 COPY . .
 RUN go build .
 
-ENTRYPOINT ["/etc/nflow/nflow-generator"]
+ENTRYPOINT ["bash"]
